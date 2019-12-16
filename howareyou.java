@@ -4,7 +4,7 @@ public class FibonacciMethod {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner (System.in);
-		System.out.println("Please enter a number: ");
+		System.out.println("Please enter a number for fibonacci serie: ");
 		int x = scanner.nextInt();
 		for (int i = 0; i < x; i++) {
 			System.out.print(fibonacci(i) + " ");
